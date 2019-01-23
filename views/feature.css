@@ -1,0 +1,142 @@
+.attach-files-button {
+    border: none;
+    background: #fff;
+    cursor: pointer;
+    font-size: 50px;
+}
+
+#my-modal {
+    height: 360px;
+    z-index: 1;
+    width: 320px;
+    border-radius: 3%;
+    border: 1px;
+    position: absolute;
+    padding: 16px 32px;
+    top: 0;
+    margin: 0 15%;
+    overflow-y: scroll;
+    flex-direction: column;
+    justify-content: space-between;
+    line-height: 30px;
+    -webkit-box-shadow: 10px 10px 24px -5px rgba(221,223,228,1);
+    -moz-box-shadow: 10px 10px 24px -5px rgba(221,223,228,1);
+    box-shadow: 10px 10px 24px -5px rgba(221,223,228,1);
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.root {
+    display: flex;
+    align-items: center;
+}
+
+svg {
+    margin-right: 5px;
+}
+
+.header {
+    display: flex;
+}
+
+.back-button {
+    border: none;
+    background: #fff;
+    cursor: pointer;
+    font-size: 50px;
+    color: #B3B6C6;
+}
+
+.header-message {
+    margin: 18px 0 0 0;
+}
+
+.close-button {
+    border: none;
+    margin: 22px 7px;
+    background: #fff;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 25px;
+    color: #B3B6C6;
+}
+
+.search-input {
+    border: none;
+    background: #F6F8FF;
+    height: 30px;
+    width: 100%;
+    font-size: 12px;
+}
+
+.search-input::placeholder {
+    color: #CACEDB;
+}
+
+.list {
+    height: 60%;
+    overflow: auto;
+}
+
+.folder > .folder-arrow {
+    font-size: 30px;
+    color: #B3B6C6;
+}
+
+.folder-arrow {
+    cursor: pointer;
+    float: right;
+}
+
+.file-checkbox {
+    float: right;
+    border: #F1F1F6;
+    background: #fff;
+    border-radius: 50%;
+}
+
+.no-folder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 65%;
+}
+
+.save-button {
+    width: 100px;
+    background: #0FE49B;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    height: 30px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1em;
+    position: absolute;
+    right: 5%;
+}
+
+.attached-file {
+    display: flex;
+    align-items: center;
+}
+
+.footer {
+    height: 40px;
+    position: absolute;
+    width: 345px;
+    bottom: 0;
+    background: #fff;
+}
+
+.delete-button {
+    border: none;
+    margin: 22px 7px;
+    background: #fff;
+    cursor: pointer;
+    font-size: 25px;
+}

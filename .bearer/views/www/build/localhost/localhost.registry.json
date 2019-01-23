@@ -1,0 +1,122 @@
+{
+  "namespace": "localhost",
+  "fsNamespace": "localhost",
+  "loader": "../localhost.js",
+  "corePolyfilled": "es5-build-disabled.js",
+  "global": "localhost.global.js",
+  "core": "localhost.core.js",
+  "components": {
+    "bearer-alert": {
+      "bundleIds": {
+        "$": "bearer-alert"
+      },
+      "encapsulation": "shadow"
+    },
+    "bearer-authorized": {
+      "bundleIds": {
+        "$": "connect-action"
+      }
+    },
+    "bearer-badge": {
+      "bundleIds": {
+        "$": "setup-display"
+      },
+      "encapsulation": "shadow"
+    },
+    "bearer-button": {
+      "bundleIds": {
+        "$": "bearer-button"
+      },
+      "encapsulation": "shadow"
+    },
+    "bearer-checkbox": {
+      "bundleIds": {
+        "$": "setup-action"
+      },
+      "encapsulation": "shadow"
+    },
+    "bearer-dropdown-button": {
+      "bundleIds": {
+        "$": "setup-action"
+      },
+      "encapsulation": "shadow"
+    },
+    "bearer-form": {
+      "bundleIds": {
+        "$": "setup-action"
+      },
+      "encapsulation": "shadow"
+    },
+    "bearer-input": {
+      "bundleIds": {
+        "$": "setup-action"
+      },
+      "encapsulation": "shadow"
+    },
+    "bearer-loading": {
+      "bundleIds": {
+        "$": "bearer-loading"
+      },
+      "encapsulation": "shadow"
+    },
+    "bearer-radio": {
+      "bundleIds": {
+        "$": "setup-action"
+      },
+      "encapsulation": "shadow"
+    },
+    "bearer-select": {
+      "bundleIds": {
+        "$": "setup-action"
+      },
+      "encapsulation": "shadow"
+    },
+    "bearer-setup": {
+      "bundleIds": {
+        "$": "setup-action"
+      },
+      "encapsulation": "shadow"
+    },
+    "bearer-setup-display": {
+      "bundleIds": {
+        "$": "setup-display"
+      },
+      "encapsulation": "shadow"
+    },
+    "bearer-textarea": {
+      "bundleIds": {
+        "$": "setup-action"
+      },
+      "encapsulation": "shadow"
+    },
+    "connect-action": {
+      "bundleIds": {
+        "$": "connect-action"
+      }
+    },
+    "feature-action": {
+      "bundleIds": {
+        "$": "feature-action"
+      },
+      "encapsulation": "shadow"
+    },
+    "feature-display": {
+      "bundleIds": {
+        "$": "feature-display"
+      },
+      "encapsulation": "shadow"
+    },
+    "setup-action": {
+      "bundleIds": {
+        "$": "setup-action"
+      },
+      "encapsulation": "shadow"
+    },
+    "setup-display": {
+      "bundleIds": {
+        "$": "setup-display"
+      },
+      "encapsulation": "shadow"
+    }
+  }
+}

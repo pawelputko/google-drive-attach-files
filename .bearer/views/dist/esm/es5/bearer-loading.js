@@ -1,0 +1,32 @@
+/*! Built with http://stenciljs.com */
+import { h } from './localhost.core.js';
+import { b as Bearer } from './chunk-db1ab781.js';
+var BearerLoader = /** @class */ (function () {
+    function BearerLoader() {
+    }
+    BearerLoader.prototype.render = function () {
+        var loadingComponent = Bearer.config.loadingComponent;
+        if (loadingComponent) {
+            var Tag = loadingComponent;
+            return h(Tag, null);
+        }
+        return (h("div", { id: "root" }, h("div", { id: "loader" }, h("div", { id: "d1" }), h("div", { id: "d2" }), h("div", { id: "d3" }), h("div", { id: "d4" }), h("div", { id: "d5" }))));
+    };
+    Object.defineProperty(BearerLoader, "is", {
+        get: function () { return "bearer-loading"; },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(BearerLoader, "encapsulation", {
+        get: function () { return "shadow"; },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(BearerLoader, "style", {
+        get: function () { return ":host {\n  --dot-size: 15px;\n  --dot-stretch-width: 30px;\n  --dot-stretch-height: 12px;\n  --dot-count: 5; }\n\n#root {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-pack: center;\n  -ms-flex-pack: center;\n  justify-content: center;\n  margin-top: 50px;\n  margin-bottom: 50px; }\n\n#loader {\n  position: relative;\n  height: var(--dot-size);\n  width: calc(var(--dot-size) * var(--dot-count));\n  margin: var(--dot-stretch-height) 0; }\n\n#loader div {\n  width: var(--dot-size);\n  height: var(--dot-size);\n  border-radius: 50%;\n  position: absolute; }\n\n#d1 {\n  background: #3179eb;\n  -webkit-animation: animate 3s linear infinite;\n          animation: animate 3s linear infinite; }\n\n#d2 {\n  background: #4260e2;\n  -webkit-animation: animate 3s linear infinite -0.6s;\n          animation: animate 3s linear infinite -0.6s; }\n\n#d3 {\n  background: #575fe7;\n  -webkit-animation: animate 3s linear infinite -1.2s;\n          animation: animate 3s linear infinite -1.2s; }\n\n#d4 {\n  background: #7651e7;\n  -webkit-animation: animate 3s linear infinite -1.8s;\n          animation: animate 3s linear infinite -1.8s; }\n\n#d5 {\n  background: #8d62ea;\n  -webkit-animation: animate 3s linear infinite -2.4s;\n          animation: animate 3s linear infinite -2.4s; }\n\n\@-webkit-keyframes animate {\n  0% {\n    left: calc(var(--dot-size) * var(--dot-count));\n    top: 0; }\n  80% {\n    left: 0;\n    top: 0; }\n  85% {\n    left: 0;\n    width: var(--dot-size);\n    height: var(--dot-size); }\n  90% {\n    width: var(--dot-stretch-width);\n    height: var(--dot-stretch-height); }\n  95% {\n    width: 0;\n    left: calc(var(--dot-size) * var(--dot-count)); }\n  100% {\n    left: calc(var(--dot-size) * var(--dot-count));\n    top: 0; } }"; },
+        enumerable: true,
+        configurable: true
+    });
+    return BearerLoader;
+}());
+export { BearerLoader as BearerLoading };
