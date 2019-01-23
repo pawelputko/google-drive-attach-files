@@ -5,6 +5,7 @@
 /dist-server
 /tmp
 /out-tsc
+/.bearer
 
 # dependencies
 /node_modules
